@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/LeviCROQ/CucumberSandwichWeb/issues"
   },
-  "homepage": "https://github.com/LeviCROQ/CucumberSandwichWeb#readme"
+  "homepage": "https://github.com/LeviCROQ/CucumberSandwichWeb#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.11.1",
+    "chromedriver": "^110.0.0",
+    "selenium-webdriver": "^4.8.0"
+  }
 }

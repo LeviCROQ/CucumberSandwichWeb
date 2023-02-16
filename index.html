@@ -61,9 +61,9 @@
         function submitComment() {
             let newUserComment = document.getElementById('UserCommentInput').value;
 
-            if (newUserComment == '') { // if empty
+            if (newUserComment == '') { // if empty, warn user
                 console.log("Please enter a comment before clicking submit!");
-            } else {
+            } else { // if a comment has been entered, display to screen and clear input textbox
                 document.getElementById('NewComment').innerText = newUserComment;
                 document.getElementById('UserCommentInput').value = '';
             }
