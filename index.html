@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main_style.css" media="screen">
+    <title>Document</title>
+</head>
+<body>
+
+    <header id="PageTitle">Passing Wind Inc.</header>
+
+
+    <div class="AboutUs">
+        <h1 class="AboutUs">About Us:</h1>
+
+        <p class="AboutUs">Our company aims to provide everyone and anyone with the experience of flying in a helicopter</p>
+        <p class="AboutUs">One day we thought</p>
+        <p class="AboutUs" id="AboutQuestion">What if you could book a helicopter flight just as easily as an Uber?</p>
+    </div>
+
+    <div class="OurServices">
+        <h2 class="OurServices">Our Services:</h2>
+
+        <ol>
+            <li>We offer fast and convenient helicopter flights</li>
+            <li>We offer takeaway orders for our customers</li>
+        </ol>
+
+        <p class="OurServices">To book a flight, press the button below:</p>
+
+        <button type="button" id="BookingButton" onclick="changeStyle()">Book a flight!</button>
+    </div>
+
+    <div class="UserComments">
+
+        <h3 class="UserComments" id="CommentsHeader">User Comments:</h3>
+
+        <p class="UserComments">Feel free to write a comment below to tell us about your experience with our services!</p>
+
+        <input type="text" id="UserCommentInput" name="UserCommentTextBox"><br><br>
+        <input type="submit" value="Submit" onclick="submitComment()" id="CommentSubmitButton">
+
+
+    </div>
+
+    <div>
+        <p id="NewComment"></p>
+    </div>
+
+    <script>
+        // JavaScript here within the script tags in the body
+
+        function changeStyle() {
+           document.getElementById('BookingButton').style.backgroundColor = "orange"
+           document.getElementById('BookingButton').style.color = "purple";
+
+        }
+
+        function submitComment() {
+            let newUserComment = document.getElementById('UserCommentInput').value;
+
+            if (newUserComment == '') { // if empty
+                console.log("Please enter a comment before clicking submit!");
+            } else {
+                document.getElementById('NewComment').innerText = newUserComment;
+                document.getElementById('UserCommentInput').value = '';
+            }
+
+        }
+
+
+    </script>
+</body>
+</html>

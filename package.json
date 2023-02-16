@@ -1,0 +1,19 @@
+{
+  "name": "cucumbersandwichweb",
+  "version": "1.0.0",
+  "description": "When implemented, remember to `npm install` first after cloning.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeviCROQ/CucumberSandwichWeb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeviCROQ/CucumberSandwichWeb/issues"
+  },
+  "homepage": "https://github.com/LeviCROQ/CucumberSandwichWeb#readme"
+}

@@ -1,0 +1,56 @@
+#PageTitle {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+#AboutQuestion {
+    font-style: italic;
+}
+
+#BookingButton {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#CommentSubmitButton {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#CommentsHeader {
+    font-size: 15px;
+    font-style: italic;
+}
+
+#NewComment {
+    font-size: 25px;
+    padding-top: 2%;
+    font-style: bold, italic;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.AboutUs {
+    padding-top: 1%;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.OurServices {
+    padding-top: 1.2%;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.UserComments {
+    padding-top: 1.5%;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
