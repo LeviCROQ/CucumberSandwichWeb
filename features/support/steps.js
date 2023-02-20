@@ -1,6 +1,10 @@
 const assert = require('assert');
+
+// functions to use for mapping sentences to code
 const {Given, When, Then} = require('@cucumber/cucumber');
-const {After, Before} = require('@cucumber/cucumber'); // hooks for set up and tear down
+
+// hooks for set up and tear down
+const {After, Before} = require('@cucumber/cucumber');
 const {AfterAll, BeforeAll} = require('@cucumber/cucumber'); 
 
 
@@ -27,7 +31,19 @@ Given("the index page is open", function() {
 
 });
 
+Given("the comment input box is empty", function() {
+
+});
+
 When("the book a flight button is clicked", function() {
+
+});
+
+When("a comment is entered into the input box", function() {
+
+});
+
+When("the submit button is clicked", function() {
 
 });
 
@@ -40,6 +56,18 @@ Then("the text colour of the button should be purple", function() {
 });
 
 Then("the title for the page should be displayed", function() {
+
+});
+
+Then("the text should disappear from the input box", function() {
+
+});
+
+Then("the comment should be displayed", function() {
+
+});
+
+Then("the user should receive a warning to enter a comment before submitting", function() {
 
 });
 
